@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    font-family: "Quantico", serif;
+    background-color: black;
+}
+.container {
+    width: 1273px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 21px 26px;
+}
+nav {
+    background-color: #272C3D;
+}
+ul li a {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    transition: 0.7s;
+}
+ul li a:hover {
+    color: #FF9C28;
+    transition: 0.7s;
+}
+ul {
+    display: flex;
+    gap: 26px;
+}
+.searchbar {
+    background-color: #404864;
+    width: 242px;
+    display: flex;
+    justify-content: end;
+    border: none;
+    outline: none;
+    position: relative;
+    padding: 8px 30px 8px 8px;
+    color: white;
+}
+.searchimg {
+    position: absolute;
+    transform: translateX(210px) translateY(0px);
+}
+.langbar {
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: black;
+    width: 165px;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.select {
+    background-color: #00000080;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: "Quantico", serif;
+    padding: 5px 94px 5px 10px;
+
+}
+.bg {
+    background-image: url(./Bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.main__text {
+    font-size: 32px;
+    font-weight: 400;
+    color: white;
+    margin: 21px 600px;
+}
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin:0 200px;
+}
+.img {
+    box-shadow: 0 0 20 #00000080;
+}
+.main__section {
+    background-color: #1B1E27;
+    width: 1189px;
+    margin: 59px auto;
+    padding: 61px 205px 129px 245px;
+}
+.main__text1 {
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+}
+.main__text2 {
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+.main__box {
+    width: 740px;
+    display: flex;
+    gap: 17px;
+    margin-top: 30px;
+}
+.main__wrapper {
+    margin-top: 142px;
+}
+footer {
+    background-color: #272C3D;
+}
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 21px 26px;
+}
+.search {
+    display: flex;
+    gap: 38px;
+}
